@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Restrant</title>
+        <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header id="header_small">
+        <div class="main">
+            <div class="logo">
+                <!-- <img src="img/logo.png" alt=""> -->
+                <h2><a href="index.html">Yaah :)</a></h2>
+            </div>
+            <ul>
+                <li><a href="code.html">Code</a></li>
+                <li class="active"><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="title_small">
+            <h1>Menu</h1>
+        </div>
+    </header>
+    <section id="menu">
+        <div class="first">
+            <p>welsh onion soko <span class="price">$14</span><br />
+            <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+          </div>
+          
+          <div class="second">
+            <p>pastrami boudin tongue <span class="price">$22</span><br />
+            <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
+          </div>
+            
+          <div class="dessert">
+            <p>fruitcake marzipan pudding dragee <span class="price">$8</span><br />
+            <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+          </div>
+    </section>
+    <section class="table-cn">
+        <h2>Collect 5000 points and win pizza for free</h2>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Points</th>
+                    <th>Pizaa</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dom</td>
+                    <td>10100</td>
+                    <td>2 left</td>
+                </tr>
+                <tr class="active-row">
+                    <td>Melissa</td>
+                    <td>5150</td>
+                    <td>1 left</td>
+                </tr>
+                <tr>
+                    <td>Dom</td>
+                    <td>4000</td>
+                    <td>0 left</td>
+                </tr>
+                <!-- and so on... -->
+            </tbody>
+        </table>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $('div').on('click', function() {
+            $(this).toggleClass('show-description');
+        });
+      </script>
+</body>
+</html>
+
+<!-- table example 
+https://dev.to/dcodeyt/creating-beautiful-html-tables-with-css-428l
+ -->
+
+ <!-- menu example
+https://dash.generalassemb.ly/projects
+-->
