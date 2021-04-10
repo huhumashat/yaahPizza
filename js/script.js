@@ -97,10 +97,11 @@ function check()
 
 // secert
 $('#secret').on('click', function() {
-  var answre = prompt("best number for me?");
-if(answre === "1146"){
-  console.log("good job");
+  var answre = prompt("What was the time when you get March code??");
+if(answre === "0946"){
+  console.log("h itrs vzmsdc sn vqhsd sn kds xnt jmnv gnv ltbg h zooqdbhzsd sgd onrhshud hmektdmbd xnt gzud gzc nm lx khed. Sgzmj xnt enq xntq bnmbdqm zmc adhmf lx eqhdmc, h vhkk ad enqdudq fqzsdetk.");
+  console.log("Zmc cn mns enqfds, h vhkk dwsdmc lx gzmc sn xnt sn gdko xnt zbghdud xntq odqrnmzk fnzkr");
 }else{
-  console.log("plase try again");
+  console.log("okdzrd sqx zfzhm");
 }
 });

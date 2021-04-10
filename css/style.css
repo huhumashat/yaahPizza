@@ -302,3 +302,80 @@ about us
     height: 80px;
     padding: 10px;
   }
+
+/******
+Contact
+ ******/
+
+  /*  خلفية الاستبيان ومكانه في الشاشة   */
+.form{
+    margin: 0 auto;
+    width: 50%;
+    max-width: 550px;
+    background: rgba(0,0,0,0.7);
+    padding:30px;
+    border-radius: 8px;
+  text-shadow: 4px 4px Brown;
+  
+  }
+  
+    /* التحكم في اتجاه ولون جملة تواصل معنا    */
+  
+  
+  /* عنوان الاستبيان  */
+  .form .TitleForm h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  /*  عرض ترتيب الاستبيان*/
+  .ContactForm{
+    display: flex;
+  }
+  /*  المسافة بين الرسالة والاسم وعرض المربعات بشكل عامودي*/
+  .InputText{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+  }
+  
+  /*   المسافة بين كل مربع داخل الاستبيان وشكل المربع الظاهرو حجم الخط تحت المربع ولونه  */
+  .InputText .input,
+  .InputMessage textarea{
+    margin: 20px 0 ;
+    background: transparent;
+    border: 20px;
+    border-bottom: 2px solid Brown;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* حجم مربع الرسالة   */
+  .InputMessage textarea{
+    height: 180px;
+  }
+  
+  /*   التحكم في لون وحجم خط الرسالة داخل المربع   */
+  ::-webkit-input-placeholder {
+    color: white ;
+    text-shadow:2px 2px Brown;
+  }
+  
+  
+  /*    التحكم في خصائص الازرار  */
+  .SendButton {
+      background: Brown;
+      text-align: center;
+      padding: 15px;
+      border-radius: 50px;
+      color: white;
+      cursor: pointer;
+      text-transform:capitalize ;
+  }
+  
+  /* التحكم في موقع الايقونات   */
+   .AddIcons{
+     margin: 30px auto;
+     width: 50%;
+     max-width: 550px;
+  }
