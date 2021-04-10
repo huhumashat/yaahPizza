@@ -203,13 +203,13 @@ Menu
   }
   
   .first{
-    background-image: url("http://dash.ga.co/assets/firstcourse.jpg");
+    background-image: url("../img/menu1.jpg");
   }
   .second{
-    background-image: url("http://dash.ga.co/assets/secondcourse.jpg");
+    background-image: url("../img/menu2.jpg");
   }
   .dessert{
-    background-image: url("http://dash.ga.co/assets/dessertcourse.jpg");
+    background-image: url("../img/menu3.jpg");
   }
   .price {
     float: right;
